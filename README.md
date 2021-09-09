@@ -30,7 +30,7 @@ if at all.
 
 ## What is Regression Based Attribution?
 
-RBA is an econometric model based that provides media attribution and forecasting capabilities. It is an attribution solution for clients with 30%+ spend affected by ITP.
+RBA is an econometric model based that provides media attribution and forecasting capabilities.
 
 ## Next Steps
 
@@ -39,9 +39,9 @@ Each notebook is part of a series to execute Regression-Based Attribution:
 *   Data import
 *   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data_Pre_Processing_%26_Feature_Selection.ipynb) 
 *   Create the model
-    * [Light - BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Light_BQML.ipynb)
-    * [Medium - OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Medium_OLS.ipynb)
-    * [Heavy - Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Heavy_Bayesian.ipynb)
+    * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Light_BQML.ipynb)
+    * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Medium_OLS.ipynb)
+    * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Heavy_Bayesian.ipynb)
 
 ## How to clone this repository
 
