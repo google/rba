@@ -28,6 +28,8 @@ with its usage, including with respect to your deployment of any portion of
 this solution in your systems, or usage in connection with your business, 
 if at all.
 
+This is not an officially supported Google product.
+
 ## What is Regression Based Attribution?
 
 RBA is an econometric model based that provides media attribution and forecasting capabilities.
