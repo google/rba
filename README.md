@@ -47,8 +47,13 @@ RBA can answer questions including:
 - Within each channel, what media partners and environments have the greatest impact on intended outcomes?
 - Does buying methodology (Direct IO versus Programmatic) influence the impact of their respective channels?
 
-## Data Requirements
+## Requirements
 
+### Technical Skills
+
+RBA models are built using SQL or Python code.
+
+### Data 
 Campaign Manager: 
    - Download daily data from the campaign manager UI for the past 12 months. 
    - Navigate to Reporting & Attribution > Report Builder > Offline Reporting > New Offline Report > Standard > Basic. 
@@ -80,18 +85,17 @@ Sales Data:
       - Region
 
 
-
-
 ## Next Steps
 
 Each notebook is part of a series to execute Regression-Based Attribution: 
 
 *   Data cleaning and feature selection
+      - Pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
 *   Modeling
     * BQML Linear Regression
     * OLS Linear Regression
     * Bayesian Linear Regression
-    * VAR
+    * Vector Autoregression
 
 ## How to clone this repository
 
