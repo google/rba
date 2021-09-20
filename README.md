@@ -30,20 +30,54 @@ if at all.
 
 This is not an officially supported Google product.
 
+## What is Attribution?
+
+In marketing, attribution refers to the evaluation of all marketing touchpoints a user encounters during their path to conversion. Assigning credits or weights to various touch points uncovers which channels or combinations of channels attributed the greatest impact/s on conversion. 
+Attribution is used by advertisers to optimize marketing channels at a granular level and to support their understanding of their individual audiences and market as a whole.
+
+Attribution lets you assign credit to each marketing channel and will allow you to observe how they contribute to conversions, for example online sales. 
+
 ## What is Regression Based Attribution?
 
 RBA is an approach to measuring digital media performance via econometric models built in open source code (SQL, Python, R). This methodology does not utilize user level data, thus making it privacy safe and durable through 3P cookie deprecation.
 
+RBA can answer questions including:
 
+- What channel and sub-channel impression weights will generate the maximum return for a given line of business?
+- Within each channel, what media partners and environments have the greatest impact on intended outcomes?
+- Does buying methodology (Direct IO versus Programmatic) influence the impact of their respective channels?
 
+## Data Requirements
 
+Campaign Manager: 
+   - Download daily data from the campaign manager UI for the past 12 months. 
+   - Navigate to Reporting & Attribution > Report Builder > Offline Reporting > New Offline Report > Standard > Basic. 
+   - Pull the following columns:
+      - Advertiser
+      - Placement
+      - Placement ID
+      - Date 
 
+Search Ads 360:
+   - Download daily data from the Search Ads 360 UI
+   - Pull the following columns:
+      - From (start date)
+      - To (end date)
+      - Device segment
+      - Engine
+      - Account
+      - Campaign
+      - Ad group
+      - Clicks
+      - Any other metrics you would like to utilize to segment your variables
 
-
-
-
-
-
+Sales Data:
+   - At minimum, 12 months of data are required
+   - Pull the following columns:
+      - Date
+      - Sales (Conversions, Revenue, or other KPI)
+      - Zip Code
+      - Region
 
 
 
@@ -52,7 +86,6 @@ RBA is an approach to measuring digital media performance via econometric models
 
 Each notebook is part of a series to execute Regression-Based Attribution: 
 
-*   Data import
 *   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data_Pre_Processing_%26_Feature_Selection.ipynb) 
 *   Modeling
     * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Light_BQML.ipynb)
