@@ -89,12 +89,12 @@ Sales Data:
 
 After aggregating data in BigQuery or Google Sheets, execute the following notebooks for data cleaning and modeling: 
 
-*   Data cleaning and feature selection
+*   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data%20Pre-Processing%20%26%20Feature%20Selection.ipynb)
       - Pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
 *   Modeling
-    * BQML Linear Regression
-    * OLS Linear Regression
-    * Bayesian Linear Regression
+    * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/BQML%20Model.ipynb)
+    * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb)
+    * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb)
     * Vector Autoregression
 
 ## How to clone this repository
