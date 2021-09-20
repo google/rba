@@ -54,10 +54,11 @@ Each notebook is part of a series to execute Regression-Based Attribution:
 
 *   Data import
 *   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data_Pre_Processing_%26_Feature_Selection.ipynb) 
-*   Create the model
+*   Modeling
     * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Light_BQML.ipynb)
     * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Medium_OLS.ipynb)
     * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/RBA_Heavy_Bayesian.ipynb)
+    * VAR
 
 ## How to clone this repository
 
