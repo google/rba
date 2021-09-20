@@ -32,7 +32,21 @@ This is not an officially supported Google product.
 
 ## What is Regression Based Attribution?
 
-RBA is an econometric model based that provides media attribution and forecasting capabilities.
+RBA is an approach to measuring digital media performance via econometric models built in open source code (SQL, Python, R). This methodology does not utilize user level data, thus making it privacy safe and durable through 3P cookie deprecation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Next Steps
 
