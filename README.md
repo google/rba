@@ -87,7 +87,7 @@ Sales Data:
 
 ## Next Steps
 
-Each notebook is part of a series to execute Regression-Based Attribution: 
+After aggregating data in BigQuery or Google Sheets, execute the following notebooks for data cleaning and modeling: 
 
 *   Data cleaning and feature selection
       - Pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
