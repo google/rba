@@ -86,13 +86,13 @@ Sales Data:
 
 ## RBA Framework
 
-### Step 1: Gather aggregated data
+Step 1: Gather aggregated data
 
-### Step 2: Train model
+Step 2: Train model
 
-### Step 3: Interpret model results
+Step 3: Interpret model results
 
-### Step 4: Optimize media strategy
+Step 4: Optimize media strategy
 
 
 ## Next Steps
