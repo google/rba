@@ -53,7 +53,10 @@ RBA can answer questions including:
 
 RBA models are built using SQL or Python code.
 
-### Data 
+### Data
+
+- Media data can be collected through Campaign Manager and/or Search Ads 360. Desired frequency of data is daily, however weekly or monthly data can be used as long as the industry standard of 10-20 observations per feature in the model is met. At least one year's worth of data is preferred for the model to gain a sufficient read of media signals.
+
 Campaign Manager: 
    - Download daily data from the campaign manager UI for the past 12 months. 
    - Navigate to Reporting & Attribution > Report Builder > Offline Reporting > New Offline Report > Standard > Basic. 
@@ -77,12 +80,13 @@ Search Ads 360:
       - Any other metrics you would like to utilize to segment your variables
 
 Sales Data:
-   - At minimum, 12 months of data are required
-   - Pull the following columns:
+    - Pull the following columns:
       - Date
       - Sales (Conversions, Revenue, or other KPI)
       - Zip Code
       - Region
+
+
 
 ## RBA Framework
 
