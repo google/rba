@@ -109,7 +109,7 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
     * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/BQML%20Model.ipynb)
     * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb)
     * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb)
-    * Vector Autoregression
+    * [Vector Autoregression](https://github.com/google/rba/blob/main/VAR%20Model.ipynb)
 
 ## How to clone this repository
 
