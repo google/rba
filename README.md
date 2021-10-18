@@ -110,19 +110,19 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
 *   Modeling
     * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/BQML%20Model.ipynb) 
     
-     * runs SQL-based BigQuery Machine Learning linear regression model within Colab UI       
+            * runs SQL-based BigQuery Machine Learning linear regression model within Colab UI       
     
     * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb)         
     
-     * runs standard ordinary least squares linear regression model
+            * runs standard ordinary least squares linear regression model
     
     * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb) 
-
-     * conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
+   
+            * conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
     
     * [Vector Autoregression](https://github.com/google/rba/blob/main/VAR%20Model.ipynb) 
     
-     * executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
+            * executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
 ## How to clone this repository
 
