@@ -103,12 +103,11 @@ Step 4: Optimize media strategy
 
 After aggregating data in BigQuery or Google Sheets, execute the following notebooks for data cleaning and modeling: 
 
-*   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data%20Pre-Processing%20%26%20Feature%20Selection.ipynb)
-        - Pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
+*   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data%20Pre-Processing%20%26%20Feature%20Selection.ipynb) pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
 *   Modeling
     * [BQML Linear Regression](https://github.com/googlestaging/rba/blob/main/BQML%20Model.ipynb) runs SQL-based BigQuery Machine Learning linear regression model within Colab UI       
-    * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb)runs standard ordinary least squares linear regression model        
-    * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb)conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
+    * [OLS Linear Regression](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb) runs standard ordinary least squares linear regression model        
+    * [Bayesian Linear Regression](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb) conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
     * [Vector Autoregression](https://github.com/google/rba/blob/main/VAR%20Model.ipynb) executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
 ## How to clone this repository
