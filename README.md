@@ -114,6 +114,24 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
     
     * [Vector Autoregression](https://github.com/google/rba/blob/main/VAR%20Model.ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
+## Which model is right for me?
+
+* BQML Regression
+   * What is it? 
+   * Who is it good for? 
+  
+* OLS Linear Regression
+   * What is it?
+   * Who is it good for? 
+   
+* Bayesian Linear Regression
+   * What is it?
+   * Who is it good for? 
+   
+* Vector Autoregression
+   * What is it?
+   * Who is it good for? 
+
 ## How to clone this repository
 
 ``` shell
