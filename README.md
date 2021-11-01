@@ -117,20 +117,24 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
 ## Which model is right for me?
 
 * BQML Regression
-   * What is it? 
-   * Who is it good for? 
+   * What is it? A modeling approach that utilizes BigQuery's pre built machine learning models  
+   * Who is it good for? Teams with minimal programming or stats backgrounds
+   * What skills does it take? Teams with SQL knowledge and basic stats background
   
 * OLS Linear Regression
-   * What is it?
-   * Who is it good for? 
-   
+   * What is it? A modeling approach that analyzes the trends of a set of statistically significant attributes/behaviors observed over regular intervals of time to predict a numerical outcome
+   * Who is it good for? Teams who want a "hands on" approach to modeling; Those who want to include variables that don't change over time (fixed effects) i.e. geography
+   * What skills does it take? Teams with SQL + Python/R capabilities and experience building statistical models
+
 * Bayesian Linear Regression
-   * What is it?
-   * Who is it good for? 
+   * What is it? A modeling approach that can deal with insufficient or poorly distributed data. Includes priors on the coefficients and on the noise so that in the absence of data, the priors can take over
+   * Who is it good for? Teams who want a "hands on" approach to modeling; Those whose data sample size is limited and there is a concern about stable estimates (priors will help with this)
+   * What skills does it take? Teams with SQL + Python/R capabilities and experience building statistical models
    
 * Vector Autoregression
-   * What is it?
-   * Who is it good for? 
+   * What is it? A stochastic modeling approach that provides a view into how marketing mediums are attributed to sales as well as how they interact with each other
+   * Who is it good for? Teams who want a "hands on" approach to modeling; Teams who are interested in digital channel level (vs. tactic-level) insights and want to understand the effect of each tactic on conversions as well as how each of these media types interact with each other
+   * What skills does it take? Teams with SQL + Python/R capabilities and experience building statistical models
 
 ## How to clone this repository
 
