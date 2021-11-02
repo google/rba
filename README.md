@@ -79,6 +79,8 @@ Search Ads 360:
       - Clicks
       - Any other metrics you would like to utilize to segment your variables
 
+Other digital media can be included such as social - as long as it meets the required frequency and timeframe for modeling.
+
 Sales Data:
     - Pull the following columns:
       - Date
