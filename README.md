@@ -87,18 +87,24 @@ Sales Data:
       - Region
 
 
+## Next Steps
 
-## RBA Framework
+After aggregating data in BigQuery or Google Sheets, execute the following notebooks for data cleaning and modeling: 
 
-Step 1: Gather aggregated data
+*   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data%20Pre-Processing%20%26%20Feature%20Selection.ipynb) : pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
+      
+*   Modeling
+    * [Standard Regression (BQML)](https://github.com/googlestaging/rba/blob/main/BQML%20Model.ipynb) : runs SQL-based BigQuery Machine Learning linear regression model within Colab UI       
+    
+    * [Regularized Regression (AI Notebook)](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb) : runs standard ordinary least squares linear regression model
+    
+    * [Bayesian Regression (AI Notebook)](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb) : conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
+    
+    * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/VAR%20Model.ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
-Step 2: Train model
+## FAQ
 
-Step 3: Interpret model results
-
-Step 4: Optimize media strategy
-
-## Which model is right for me?
+### Which model is right for me?
 
 * Standard Regression (BQML)
    * What is it? A modeling approach that utilizes BigQuery's pre built machine learning models  
@@ -120,24 +126,10 @@ Step 4: Optimize media strategy
    * Who is it good for? Teams who want a "hands on" approach to modeling; Teams who are interested in digital channel level (vs. tactic-level) insights and want to understand the effect of each tactic on conversions as well as how each of these media types interact with each other
    * What skills does it take? Teams with SQL + Python/R capabilities and experience building statistical models
 
-## Next Steps
-
-After aggregating data in BigQuery or Google Sheets, execute the following notebooks for data cleaning and modeling: 
-
-*   [Data cleaning and feature selection](https://github.com/googlestaging/rba/blob/main/Data%20Pre-Processing%20%26%20Feature%20Selection.ipynb) : pulls in data from BigQuery, performs exploratory data analysis, cleaning, and feature reduction
-      
-*   Modeling
-    * [Standard Regression (BQML)](https://github.com/googlestaging/rba/blob/main/BQML%20Model.ipynb) : runs SQL-based BigQuery Machine Learning linear regression model within Colab UI       
-    
-    * [Regularized Regression (AI Notebook)](https://github.com/googlestaging/rba/blob/main/OLS%20Model.ipynb) : runs standard ordinary least squares linear regression model
-    
-    * [Bayesian Regression (AI Notebook)](https://github.com/googlestaging/rba/blob/main/Bayesian%20Model.ipynb) : conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
-    
-    * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/VAR%20Model.ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
 
 
-## How to clone this repository
+### How to clone this repository
 
 ``` shell
 git clone https://github.com/google/rba
