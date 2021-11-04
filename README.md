@@ -102,7 +102,7 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
     
     * [Bayesian Regression (AI Notebook)](https://github.com/google/rba/blob/main/Bayesian%20Regression.ipynb) : conducts bayesian linear regression modeling including setting priors, sampling, and posterior analysis
     
-    * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/VAR%20Model.ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
+    * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/Vector%20Autoregression.ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
 ## FAQ
 
