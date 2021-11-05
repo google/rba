@@ -1,0 +1,50 @@
+Variable Name,Masked Tactic Name
+geo,Division
+date,day
+y1,conversions
+x1,national Imps
+x2,national clicks
+x3,Branded Remarketing Clicks audience 1
+x4,Branded Remarketing Clicks - audience 2
+x5,Nonbranded Remarketing Clicks - audience 1
+x6,search mobile clicks
+x7,search desktop clicks
+x8,search mobile to desktop ratio
+x9,Core brand search audience 1
+x10,Core client search audience 1
+x11,Core other search audience 1
+x12,Remarketing brand search audience 1
+x13,Remarketing brand search audience 2
+x14,Remarketing client search audience 1
+x15,Remarketing client search audience 2
+x16,Remarketing other search audience 1
+x17,Remarketing other search audience 2
+x18,total Imps
+x19,DSP 1 Imps
+x20,DSP 2 Imps
+x21,DSP 3 Imps
+x22,DSP 4 Imps
+x23,Other Imps
+x24,Audio Imps
+x25,DSP 5 Imps
+x26,DSP 4 Display AWA Imps
+x27,DSP 2 Video AWA Imps
+x28,DSP 3 Video AWA Imps
+x29,Other DSP Display AWA Imps
+x30,Other DSP Audio AWA Imps
+x31,Other DSP Audio AWA Imps
+x32,DSP 5 Video AWA
+x33,DSP 3 Display ACQ Imps
+x34,Social ACQ imps
+x35,DSP 1 Display AWA imps
+x36,Other Display RTG imps
+x37,DSP 5  Video AWA imps
+x38,DSP 3 Display AWA Imps
+x39,DSP 1 Display RTG imps
+x40,App 1 Audio AWA imps
+x41,Site 1 Display ACQ imps
+x42,Site 2 Display ACQ imps
+x43,DSP 5 Audio AWA Imps
+x44,DSP 1 Display ACQ imps
+x45,Social AWA imps
+x46,DSP 5 Display ACQ imps
