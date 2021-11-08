@@ -39,7 +39,7 @@ Attribution lets you assign credit to each marketing channel and will allow you 
 
 ## What is Regression Based Attribution?
 
-RBA is an approach to measuring digital media performance via econometric models built in open source code (SQL, Python, R). This methodology does not utilize user level data, thus making it privacy safe and durable through 3P cookie deprecation.
+RBA is an approach to measuring digital media performance via econometric models built in open source code (SQL, Python, R). This methodology does not utilize user level data, thus making it privacy safe and durable through 3P cookie deprecation. RBA sits between Marketing Mix Models (MMM) and Multi-Touch Attribution models (MTA) - as it is more granular than MMM but does not rely on cookies.
 
 RBA can answer questions including:
 
@@ -55,7 +55,7 @@ RBA models are built using SQL or Python code.
 
 ### Data
 
-- Media data can be collected through Campaign Manager and/or Search Ads 360. Desired frequency of data is daily, however weekly or monthly data can be used as long as the industry standard of 10-20 observations per feature in the model is met. At least one year's worth of data is preferred for the model to gain a sufficient read of media signals.
+- Data requirements for RBA include daily conversion volume and daily digital media investment broken down by desired tactics. Media data can be collected through Campaign Manager and/or Search Ads 360. Desired frequency of data is daily, however weekly or monthly data can be used as long as the industry standard of 10-20 observations per feature in the model is met. At least one year's worth of data is preferred for the model to gain a sufficient read of media signals.
 
 Campaign Manager: 
    - Download daily data from the campaign manager UI for the past 12 months. 
@@ -65,6 +65,7 @@ Campaign Manager:
       - Placement
       - Placement ID
       - Date 
+      - Impressions, clicks, spend
 
 Search Ads 360:
    - Download daily data from the Search Ads 360 UI
@@ -76,17 +77,17 @@ Search Ads 360:
       - Account
       - Campaign
       - Ad group
-      - Clicks
+      - Impressions, clicks, spend
       - Any other metrics you would like to utilize to segment your variables
 
 Other digital media can be included such as social - as long as it meets the required frequency and timeframe for modeling.
 
-Sales Data:
+CRM/Sales Data:
     - Pull the following columns:
       - Date
       - Sales (Conversions, Revenue, or other KPI)
       - Zip Code
-      - Region
+      - Region (if media is planned at regional level, otherwise national)
 
 
 ## Next Steps
@@ -105,6 +106,11 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
     * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/Vector%20Autoregression.ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
 ## FAQ
+
+### Who is best fit to run RBA?
+
+* Teams looking for durable attribution solutions and/or teams with advanced custom attribution needs
+
 
 ### Which model is right for me?
 
@@ -128,7 +134,9 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
    * Who is it good for? Teams who want a "hands on" approach to modeling; Teams who are interested in digital channel level (vs. tactic-level) insights and want to understand the effect of each tactic on conversions as well as how each of these media types interact with each other
    * What skills does it take? Teams with SQL + Python/R capabilities and experience building statistical models
 
+### What is the advantage of analyzing digital-only media data?
 
+* An advantage of only looking at digital media is that the data ingestion from digital media technologies can be automated using APIs. So, RBA analysis can be run more frequently than other analyses. As you’re only looking at digital media that will have the same metrics (e.g clicks) across the board, you can run RBA analysis at a more granular level (micro level analysis), meaning it can be used at both the channel level, and tactic level. For example, the impact of a display awareness campaign compared to a display retargeting campaign.
 
 
 ### How to clone this repository
