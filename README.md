@@ -105,7 +105,7 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
     
     * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/Vector%20Autoregression%20(VAR).ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
- * [New! Boosted Trees Regression (BQML)](https://github.com/google/rba/blob/main/Boosted%20Trees%20Regression%20(BQML).ipynb) : runs SQL-based BigQuery Machine Learning Boosted Trees Regression model + Global Explainability within Colab UI
+    * [New! Boosted Trees Regression (BQML)](https://github.com/google/rba/blob/main/Boosted%20Trees%20Regression%20(BQML).ipynb) : runs SQL-based BigQuery Machine Learning Boosted Trees Regression model + Global Explainability within Colab UI
 
 
 ## FAQ
