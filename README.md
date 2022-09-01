@@ -105,6 +105,9 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
     
     * [Vector Autoregression (AI Notebook)](https://github.com/google/rba/blob/main/Vector%20Autoregression%20(VAR).ipynb) : executes vector autoregression model with relevant pre-modeling tests, impulse response functions, and forecast error variance decomposition
 
+    * [New! Boosted Trees Regression (BQML)](https://github.com/google/rba/blob/main/Boosted%20Trees%20Regression%20(BQML).ipynb) : runs SQL-based BigQuery Machine Learning Boosted Trees Regression model + Global Explainability within Colab UI
+
+
 ## FAQ
 
 ### Who is best fit to run RBA?
@@ -133,6 +136,11 @@ After aggregating data in BigQuery or Google Sheets, execute the following noteb
    * What is it? A stochastic modeling approach that provides a view into how marketing mediums are attributed to sales as well as how they interact with each other
    * Who is it good for? Teams who want a "hands on" approach to modeling; Teams who are interested in digital channel level (vs. tactic-level) insights and want to understand the effect of each tactic on conversions as well as how each of these media types interact with each other
    * What skills does it take? Teams with SQL + Python/R capabilities and experience building statistical models
+   
+* Boosted Trees Regression (BQML)
+   * What is it? A highly accurate machine learning model approach that provides a view into how marketing mediums are attributed to sales 
+   * Who is it good for? Teams with minimal programming or stats backgrounds; Data that does not meet the strict assumptions of stats based models.
+   * What skills does it take? Teams with SQL knowledge and basic machine learning background
 
 ### What is the advantage of analyzing digital-only media data?
 
